@@ -1,7 +1,6 @@
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 
-// Mock data - replace with Firebase later
 const files = [
   { name: 'Product Pitch Deck', type: 'pdf', size: '2.4 MB', url: '#', updated: 'May 15, 2024' },
   { name: 'Product Demo Video', type: 'mp4', size: '15.2 MB', url: '#', updated: 'May 10, 2024' },
@@ -23,7 +22,6 @@ export default function BuyerPage() {
         <title>Deal Room #{id} | Your Platform</title>
       </Head>
 
-      {/* Header */}
       <header className="bg-white shadow-sm">
         <div className="max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8">
           <h1 className="text-3xl font-bold text-gray-900">Deal Room #{id}</h1>
@@ -31,9 +29,7 @@ export default function BuyerPage() {
         </div>
       </header>
 
-      {/* Main Content */}
       <main className="max-w-7xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
-        {/* Seller Info Card */}
         <div className="bg-white rounded-lg shadow-md p-6 mb-8 border border-gray-200">
           <div className="flex items-center">
             <div className="flex-shrink-0">
@@ -50,7 +46,6 @@ export default function BuyerPage() {
           </div>
         </div>
 
-        {/* Files Section */}
         <section>
           <h2 className="text-xl font-semibold text-gray-900 mb-6">Materials</h2>
           
@@ -92,7 +87,6 @@ export default function BuyerPage() {
           </div>
         </section>
 
-        {/* Additional Sections */}
         <section className="mt-12">
           <h2 className="text-xl font-semibold text-gray-900 mb-6">About the Product</h2>
           <div className="bg-white shadow rounded-lg p-6">
@@ -104,7 +98,6 @@ export default function BuyerPage() {
         </section>
       </main>
 
-      {/* Footer */}
       <footer className="bg-white border-t mt-12">
         <div className="max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8">
           <p className="text-center text-gray-500 text-sm">
