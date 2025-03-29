@@ -14,6 +14,15 @@ export default function BuyerPage() {
 
   return (
     <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50">
+  {/* ADD THIS TEST COMPONENT RIGHT HERE */}
+  <div className="bg-blue-600 text-white p-4 rounded-lg mb-4 text-center">
+    Tailwind Test - This should be blue with white text if styling works
+  </div>
+  
+  <Head>
+    <title>Deal Room #{id} | Your Platform</title>
+  </Head>
       <Head>
         <title>Deal Room #{id} | Your Platform</title>
       </Head>
